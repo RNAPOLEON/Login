@@ -1,0 +1,38 @@
+
+.buscador {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    right: 240px;
+    left: 240px;
+    height: 43px;
+    width: calc(100vw - 499px);
+    background-color: $gris;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $bordes;
+    border-right: none;
+    border-top: none;
+
+    #input_buscador {
+        color: $blue;
+    }
+
+    .buscador_texto {
+        width: 37vw;
+        height: 25px;
+        border-radius: 5px;
+        background-color: #2a2c47;
+        margin-right: 10px;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 600;
+        font-size: 11px;
+        text-align: center;
+        border: 2px solid $bordes;
+    }
+}
+.libros{
+    width: calc(100vw - 200px);
+    left: 0;
+}

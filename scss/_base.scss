@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&family=Raleway:ital,wght@0,200;0,500;1,200;1,500&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+$pink : #ff29ad;
+$purple : #a9aeff;
+$lemon : #ebde30;
+$green : #00ffb3;
+$blue : #00aeff;
+$black : #000000;
+$black2 : #1d203e;
+$white : rgb(120, 122, 138);
+$white2 : #ffffff;
+$white3 : #44475d;
+$gris : rgb(44, 47, 72);
+$gris2 : #655493;
+$gris3 : #7e6b9c;
+$gris4 : #716097;
+$black_med: #8d8e9b;
+$bordes: rgb(55, 58, 81);
+
+$gradiante1: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+
+$font1: 'Cormorant Garamond', serif;
+$font2: 'Raleway', sans-serif;
+$font3: 'Rubik', sans-serif;
+
+*,
+*:before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: $black2;
+}
+
+/* Estilos para la barra de desplazamiento */
+/* Estilos para la barra de desplazamiento */
+
+/* Estilos para la barra de desplazamiento */

@@ -1,0 +1,65 @@
+.block_lectura {
+    width: calc(100vw - 240px);
+    height: 100%;
+    min-height: 90vh;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 50px;
+
+    .block_lecturados {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .direccinal {
+            max-width: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .flechas {
+                background-image: $gradiante1;
+                
+                min-width: 50vw;
+                height: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                border-radius: 20px;
+                margin-bottom: 10px;
+                i {
+                    cursor: pointer;
+                    margin: 0 30px 0 30px;
+                    font-size: 25px;
+                    &:hover {
+                        color: $white2;
+                        transform: 2s translateX(-5px) ease;
+                    }
+                }
+            }
+        }
+
+        .leectura {
+            max-width: 50vw;
+            background-color: transparent;
+            text-align:  justify;
+            margin: 20px 0 40px 0 ;
+            .texto_nombre{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 28px;
+                color: $blue;
+            }
+            p {
+                color: rgb(195, 195, 195);
+                margin: 10px 20px 0 20px;
+                letter-spacing: 2px;
+                text-indent: 40px;
+                line-height: 1.6;
+            }
+        }
+    }
+}

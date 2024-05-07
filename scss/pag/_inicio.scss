@@ -1,0 +1,158 @@
+.main_content {
+  background-color: transparent;
+  position: absolute;
+  left: 240px;
+  right: 240px;
+  top: 43px;
+  display: flexbox;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(200vh - 43px);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
+
+  .main_inicio {
+    position: relative;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: 1;
+    background-color: #4158D0;
+    background-image: $gradiante1;
+
+    img {
+      position: absolute;
+      z-index: 0;
+      width: 160px;
+    }
+
+    p {
+      z-index: 90;
+      font-size: 29px;
+      text-align: center;
+      max-width: 460px;
+      margin: 15px;
+    }
+  }
+
+  .textTop {
+    .topTitle {
+      color: white;
+      font-size: 28px;
+      width: 600px;
+      height: 35px;
+      text-align: start;
+      margin-bottom: 10px;
+    }
+
+    .topSubTitle {
+      width: 600px;
+      height: 45px;
+      margin-top: -20px;
+      color: rgb(203, 173, 173);
+      font-size: 20px;
+    }
+  }
+
+  .blockCont_main {
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    height: 270px;
+  }
+
+  .blockGod {
+    height: 550px;
+    a{
+      text-decoration: none;
+    }
+    .topgodcarrusel{
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      overflow: hidden;
+      .sectionUno{
+        display: flex;
+      }
+      .sectionDos{
+        display: flex;
+      }
+      .carusel {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: row;
+        width: calc(100% / 2);
+        justify-content: space-between;
+          img {
+            width: 80%;
+            max-width: 200px;
+            min-width: 120px;
+            height: 100%;
+            border-radius: 20px;
+            border: 2px solid $blue;
+            margin: 10;
+          }
+          p{
+            position: sticky;
+            color: white;
+            margin-left: -200px;
+            bottom: 0;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-size: 20px;
+            letter-spacing: -2px;
+            font-family: $font2;
+          }
+      }
+    }
+    
+  }
+  .topSemana{
+    margin-top: 100px;
+    .blockSemana{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .semanaTop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+      }
+      .img_blocksemana {
+        width: calc(100% - 5%);
+        max-width: 200px;
+        border-radius: 20px;
+        padding: 5px;
+        background-image: linear-gradient(to bottom right, $blue, violet);
+        box-sizing: border-box;
+        padding: 2px;
+      }
+      
+      
+    }
+  }
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+  .main_content {
+    left: 0;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .main_content {
+    top: calc(43px + 43px);
+  }
+}
